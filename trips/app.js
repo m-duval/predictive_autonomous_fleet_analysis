@@ -14,7 +14,7 @@ const MAPBOX_TOKEN = process.env.MapboxAccessToken; // eslint-disable-line
 // Source data CSV
 const DATA_URL = {
   BUILDINGS:
-    'https://raw.githubusercontent.com/uber-common/deck.gl-data/master/examples/trips/buildings.json', // eslint-disable-line
+    'https://github.com/uber-common/deck.gl-data/blob/master/examples/trips/buildings.json', // eslint-disable-line
   TRIPS:
     'https://raw.githubusercontent.com/uber-common/deck.gl-data/master/examples/trips/trips-v7.json' // eslint-disable-line
 };
@@ -55,7 +55,7 @@ const INITIAL_VIEW_STATE = {
   bearing: 0
 };
 
-const landCover = [[[-74.0, 40.7], [-74.02, 40.7], [-74.02, 40.72], [-74.0, 40.72]]];
+const landCover = [[[-74.057108, 40.694413], [-73.946489, 40.689951], [-73.890255, 40.828783], [-74.010225, 40.834587]]];
 
 export class App extends Component {
   constructor(props) {
